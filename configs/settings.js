@@ -83,24 +83,24 @@ var baseLine = {
   // SEO - Default html setup
   googleAnalytics: 'UA-71654331-1',
   html: {
-    title: 'Mean Stack JS Demo',
+    title: 'Grading Guru',
     keywords: 'MEAN, MEANSTACKJS, mongodb, expressjs, angularjs,nodejs, javascript',
-    description: 'Mean Stack JS was built for ease of use with javascript at its core. MeanStackJS is a full stack javascript framework that will give you the power to develop web applications',
+    description: 'Outsource your grading to gurus & get paid to grade.',
     ogUrl: 'https://meanstackjs.herokuapp.com/',
     ogType: 'website',
-    ogTitle: 'Mean Stack JS Demo',
-    ogDescription: 'Mean Stack JS was built for ease of use with javascript at its core. MeanStackJS is a full stack javascript framework that will give you the power to develop web applications',
-    ogImage: 'http://meanstackjs.com/images/logo/header.png',
+    ogTitle: 'Grading Guru',
+    ogDescription: 'Outsource your grading to gurus & get paid to grade.',
+    ogImage: 'http://www.grading.guru.com/images/logo/banner.png',
     fbAppId: '1610630462580116',
-    twitterCreator: '@greenpioneerdev',
+    twitterCreator: '@donwilliampage',
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Mean Stack JS Demo',
-    twitterDescription: 'Mean Stack JS was built for ease of use with javascript at its core. MeanStackJS is a full stack javascript framework that will give you the power to develop web applications',
-    twitterUrl: 'https://meanstackjs.herokuapp.com/',
-    twitterImage: 'http://meanstackjs.com/images/logo/header.png',
+    twitterTitle: 'Grading Guru',
+    twitterDescription: 'Outsource your grading to gurus & get paid to grade.',
+    twitterUrl: 'https://www.grading.guru/',
+    twitterImage: 'https://www.grading.guru/images/logo/banner.png',
     twitterSite: '@meanstackjs',
-    canonical: 'https://meanstackjs.herokuapp.com/',
-    author: 'Green Pioneer Solutions'
+    canonical: 'https://www.grading.guru/',
+    author: 'P4GE'
   },
   seo: require('./seo.js'),
   // AGGREGATION
@@ -285,24 +285,24 @@ var baseLine = {
   email: {
     templates: {
       welcome: {
-        subject: 'Welcome to Mean Stack JS',
+        subject: 'Welcome to Grading Guru',
         text: function (username) {
           return 'Hi ' + username + ',\n\n' +
-          'Thanks for signing up for Mean Stack JS.\n\n' +
+          'Thanks for signing up for Grading Guru.\n\n' +
           'If you have any questions about the site, you can reply to this ' +
           'email.\n\n' +
-          '— Mean Stack JS'
+          '— Guru'
         }
       },
       reset: {
-        subject: 'Reset your password on MEANSTACKJS ',
+        subject: 'Reset your password on Grading Guru ',
         text: function (email) {
           return 'Hello,\n\n' +
           'This is a confirmation that the password for your account ' + email + ' has just been changed.\n'
         }
       },
       forgot: {
-        subject: 'Welcome to Mean Stack JS',
+        subject: 'Grading Guru - Forgot Password',
         text: function (host, token) {
           return 'You are receiving this email because you (or someone else) have requested the reset of the password for your account.\n\n' +
           'Please click on the following link, or paste this into your browser to complete the process:\n\n' +
@@ -311,14 +311,14 @@ var baseLine = {
         }
       }
     },
-    from: 'MEANSTACKJS@localhost.com',
-    error: 'MEANSTACKJS@localhost.com',
+    from: 'admin@grading.guru',
+    error: 'admin@grading.guru',
     connect: {
       host: 'smtp.mandrillapp.com', // Gmail, SMTP
       port: '587',
       auth: {
-        user: 'hackathonstarterdemo',
-        pass: 'E1K950_ydLR4mHw12a0ldA'
+        user: '',
+        pass: ''
       }
     }
   }

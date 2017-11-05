@@ -2,7 +2,7 @@
 var _ = require('lodash')
 module.exports = {
   '/': {
-    title: 'Mean Stack JS Demo'
+    title: 'Grading Guru'
   },
   '/404': {
     title: 'Page Not Found'
@@ -11,10 +11,10 @@ module.exports = {
     title: 'Server Side Error'
   },
   '/signin': {
-    title: 'Signin to Mean Stack JS'
+    title: 'Signin'
   },
   '/signup': {
-    title: 'Join Mean Stack JS '
+    title: 'Signup'
   },
   '/account': {
     title: '<%= user.profile.name %> Account'
